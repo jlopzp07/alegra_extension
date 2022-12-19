@@ -1,0 +1,23 @@
+{
+    "name": "Alegra Soluciones Extension",
+    "version": "0.0.1",
+    "description": "Test",
+    "manifest_version": 3,  
+    "author": "Juan López",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Alegra Soluciones"
+    }, 
+    "content_scripts": [
+        {
+          "js": ["script.js"], 
+          "matches": ["https://*/*"]
+        }
+    ],
+    "icons": {
+        "16": "contabilidad.png"
+      },
+    "permissions": [
+        "tabs"
+    ]
+}
