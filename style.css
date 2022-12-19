@@ -47,6 +47,31 @@ h3 {
     font-weight: 400;
 }
 
+.header {
+    display: flex;
+}
+
+.header .header-buttons {
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 8px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.header .header-buttons:hover {
+    background-color: #F1F5F9;
+}
+
+.header .header-buttons p {
+    font-size: 1rem;
+}
+
 .solutions {
     display: flex;
     column-gap: 16px;
